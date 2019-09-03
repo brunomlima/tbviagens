@@ -1,0 +1,145 @@
+#calwrapper
+{
+    min-height:230px;  
+    margin-top:10px;  
+}
+
+
+#calendar
+{
+    float:left;
+    margin-left: 15px; /*Daniele 10-04-2014*/
+}
+
+
+span.calendario
+{
+    display:block;
+    margin:0;
+}
+
+table.fasce
+{
+    margin-left:20px;
+}
+
+table.fasce th
+{
+    background-image: url( '../images/tab_body.png' );
+    background-repeat: repeat-x;
+    font-size:12px;
+}
+
+table.fasce tr
+{
+	border-bottom: #f5f4e7 thin dotted;
+}
+
+table.calendario
+{
+	border-top: 0px !important;
+}
+
+table.calendario, table.fasce
+{
+	width: 300px;
+	background-color: White !important;
+	font-size: 15px;
+	border-right: #f5f4e7 1px solid !important;
+	border-left: #f5f4e7 1px solid !important;
+	border-bottom: #f5f4e7 1px solid !important;
+}
+
+table.calendario td, table.fasce td
+{
+    text-align:center;
+}
+
+table.calendario .calTitolo
+{
+    background-image: url( '../images/tab_body.png' );
+    background-repeat: repeat-x;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size:12px;
+}
+
+table.calendario .calTitolo td
+{
+	padding:0px 5px 0px 5px;
+	width:14.3%;
+}
+
+table.calendario .calDayHeader /* RIGA */
+{ 	
+	background-color:#FCFBF7;
+	font-size:12px;
+}
+
+table.calendario .otherMonthDay
+{
+    color: #C0C0C0;
+}
+
+table.calendario .cellaSelezionata /* CELLA */
+{	
+	background-color:#EDEBD5 !important;	
+	border-collapse:collapse !important;
+    font-weight:bold;	
+}
+
+table.calendario .calendarCellOpen input
+{
+	color:#208020 !important;	/*Disponibilità alta*/
+	font-weight:bold;		
+}
+
+table.calendario .calendarCellRed
+{
+	color:Red !important;	/*Disponibilità nulla*/
+	font-weight:bold;	
+}
+
+table.calendario .calendarCellMed input
+{
+	color:#F09643 !important;	/*Disponibilità media*/
+	font-weight:bold;	
+}
+
+
+.pulsanteCalendario
+{    
+    border: 0px;
+    background-color: Transparent;
+    cursor: pointer;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;  
+    height:20px;
+    width:100%;
+    overflow:visible; 
+    text-align:center;
+    font-size:16px;
+}
+
+.pulsanteCalendario:hover
+{
+    text-decoration:underline;
+}
+
+#legend
+{
+    margin-bottom:8px;
+    width:100%;    
+}
+
+#legend ul
+{
+    list-style-type:none;
+}
+
+#legend ul li
+{
+    display:inline;
+    margin-left:20px;
+}
+

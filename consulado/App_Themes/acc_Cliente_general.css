@@ -1,0 +1,329 @@
+#wrapper { 
+ margin: 0 auto;
+ width: 922px;
+}
+
+
+/**
+
+INTESTAZIONE
+
+**/
+
+#header {
+ color: #333;
+ width: 900px;
+ float: left;
+ padding: 10px; 
+ margin: 10px 0px 0px 0px; 
+}
+
+#header .left_header, .headerGrid .left_header
+{
+	padding: 0;
+	margin:0px !important;
+	margin-right:-3px; 
+	width: 15px;
+	float: left;
+	height:50px;
+}
+
+#header .right_header, .headerGrid .right_header
+{
+	padding:0;
+	margin:0px !important;
+	margin-left:-3px; 
+	float:right;
+	width:15px;
+	height:50px;
+}
+
+#header .center_header
+{
+	padding: 0;	
+	height: 50px;
+	background-image: url( '../images/tab_body.png' );
+	background-repeat: repeat-x;
+}
+
+#header .center_header h1.title
+{
+	color:Black;
+	padding: 15px 0  0 15px;
+	height: 30px;
+	font-size: 1.0em;
+}
+
+.headerGrid
+{
+	padding:0px;
+	margin:0px;
+}
+
+.headerGrid .center_header_grid
+{
+	/*padding: 0px 0 0 30;	*/
+	height: 35px;
+	background-image: url( '../images/tab_body.png' );
+	background-repeat: repeat-x;	
+	padding-top:15px;
+}
+
+.headerGrid .center_header_grid a
+{
+	text-decoration:none;
+}
+	
+.headerGrid .center_header_grid h1.gridTitle
+{
+	color:Black;
+	margin:0px;
+	padding: 15px 0  0 15px;
+	height: 30px;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.genericGrid
+{
+    width: 99%;     /*Daniele 10-04-2014*/
+    background-color: #ffffff;
+    margin: 0px 0px 10px 0px;
+    font-size: 0.8em;
+}
+
+/*Daniele 10-04-2014*/
+#tblcambiopwd{
+    margin-left: 10px;
+}
+
+.datiAdd {
+    margin-left:10px;
+}
+
+
+
+
+.genericGrid td
+{
+	padding: 4px 0px 4px 5px;
+	border-bottom: #f5f4e7 thin dotted;
+}
+
+.genericGrid td a
+{
+	text-decoration:none;
+}
+
+.genericGrid .genericGridHeader
+{
+	padding:5px 0px 5px 0px;
+	border-bottom:1px solid #F5F4E7;
+}
+
+.genericGrid .genericGridHeader th
+{
+	font-size:1em;
+	font-weight:normal;	
+	padding:5px 0px 5px 5px;
+	border-bottom:1px solid #F5F4E7;
+	text-align:left;
+}
+
+.genericGrid .genericGridSolidBorder td
+{
+	border-bottom:1px solid #F5F4E7;
+}
+
+.genericGrid .datiAggiuntiviLx
+{
+	vertical-align: bottom;
+	text-align:left;	
+	width: 30px;	
+	background-image: url( '../images/Left_tab.png' );
+	background-repeat: repeat-y;
+	border:0px;
+	padding:0px 0px 0px 0px;
+}
+
+.genericGrid .datiAggiuntiviLx img
+{
+	text-align:left;
+}
+
+.genericGrid .datiAggiuntivi
+{
+	margin-bottom:20px;
+}
+
+#topinfo
+{
+    margin-top:15px;
+    margin-left:25px;
+}
+
+#topinfo li
+{
+    display:inline;
+    margin-right:20px;
+}
+
+/**
+
+COLONNA DI SINISTRA
+
+**/
+
+#leftcolumn { 
+ color: #333;
+ border: 0px ; 
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ width: 240px;
+ float: left;
+}
+
+/**
+
+MENU DI SINISTRA
+
+**/
+
+#mainmenu
+{
+	width:100%;
+	float:left;
+}
+
+#mainmenu ul 
+{
+	line-height: normal;
+	background: url( '../images/img04.gif' ) repeat-x;
+}
+
+#mainmenu li 
+{
+	padding: 5px;
+	background: url( '../images/img04.gif' ) repeat-x left bottom;
+	font-size: .8em;
+}
+
+#mainmenu li a 
+{
+	text-decoration:none;
+}
+
+#mainmenu li a 
+{
+	border: none;
+	padding-left: 10px;
+}
+
+#mainmenu li a:hover 
+{
+	border: none;
+	padding-left: 10px;
+}
+
+.mainmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.mainmenu li {
+	margin-bottom: 2em;
+	margin: 0;
+}
+
+.mainmenu h1.title {
+	margin: 0 0 1em 0;
+}
+
+#mainmenu h1.title
+{
+	color:Black;
+	margin: 0 0 1em 0;
+	background: url( '../images/img11.gif' ) no-repeat left top;
+	padding: 15px 0  0 15px;
+	height: 30px;
+	font-size:1em;
+	font-weight: normal;
+}
+
+#rightcolumn { 
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    float: right;
+    color: #333;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    width: 638px;
+    display: inline;
+}
+
+#footer { 
+ width: 900px;
+ clear: both;
+ color: #333;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+}
+
+
+/** STILE PER I DATI ADDIZIONALI **/
+.txtNote
+{
+    width:98%;
+}
+
+
+/** ALTRI STILI **/
+
+.txtPrivacy
+{
+    width:98%;
+    background-color:White;
+    background-color:White !important;
+    color:Black;
+    color:Black !important;
+    height:100px;
+}
+
+/* invio mail */
+
+.testoMail
+{
+	width:98%;
+}
+
+.txtMail
+{
+	width:55%;
+}
+
+/* elenco richieste */
+
+.genericGrid tr td .motivazione
+{
+	width:40%;
+}
+
+.intRichieste tr th
+/*#TblAppuntamenti tr th*/
+{
+	text-align:left;
+	padding:4px 0px 4px  5px;
+}
+
+#tvlServizi td .linkButton {
+    font-weight: bold;
+    color:#0063ed;
+    /*color: #2c70cf;*/
+    
+}
+
+#tvlServizi td .linkButton:hover {
+    color: #666;
+}

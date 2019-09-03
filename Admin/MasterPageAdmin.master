@@ -1,0 +1,59 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageAdmin.master.cs" Inherits="Admin_MasterPageAdmin"  %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <meta name="description" content="Viagens e Turismo" />
+  <meta name="keywords" content="Agência de Viagens" />
+  <meta name="author" content="Bruno Medeiros Lima" />
+  <link rel="stylesheet" type="text/css" media="screen,projection" href="../css/style_screen.css" />
+
+  <title>TBViagens - Administração</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link rel="shortcut icon" href="http://www.tbviagens.com.br/img/favoicon.ico" />
+</head>
+<body>
+  <div class="page-container-3">
+
+  	<!-- HEADER -->
+  
+    
+    <!-- Header banner -->		 						    		 						
+		<div><img class="img-header" src="../img/header.png" alt=""/></div>		
+    <div class='nav2'>
+    <ul>
+    
+
+    <% if (Session["LOGADO"] != null) {
+
+            ShowAcessos.ShowAcesso(Session["CPF"].ToString());
+       
+       }; %>
+    	</ul>	
+  	<!-- 	CONTENT -->
+	<form id="form1" runat="server">
+    <div "page-container-3" style="text-align: left">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+		
+    <!-- FOOTER -->
+    <div class="footer">
+       <p><b>Copyright &copy; 2012 TBViagens | All Rights Reserved</b></p>
+       <p>Design <a href="mailto:bml@ig.com.br">TBViagens</a> 
+
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
